@@ -1,0 +1,14 @@
+
+Backend:
+
+- Tables with Todo Items, Categories
+- CRUD for ToDo items.
+    - GET /todoitems - Lists all ToDo items
+      Parameters:
+        - Time interval (startTime, endTime)
+        - Priorty (priority)
+        - Title (maybe regex)
+        - Repeat type (type)
+    - POST /todoitems - Add new todo item
+    - PUT  /todoitems/todoItem - modify todoItem
+    - DELETE /todoitems/todoitem - remove todo item
